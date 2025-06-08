@@ -1,0 +1,339 @@
+.travel-calculator {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator-container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.calculator-title {
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.calculator-subtitle {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.calculator-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.6s ease-out;
+}
+
+.pricing-info {
+  margin-bottom: 2rem;
+}
+
+.pricing-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  background: #f8f9ff;
+  border-radius: 15px;
+  padding: 1.5rem;
+}
+
+.pricing-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.pricing-icon {
+  font-size: 2rem;
+  margin-top: 0.2rem;
+}
+
+.pricing-details {
+  flex: 1;
+}
+
+.pricing-details strong {
+  color: #2c3e50;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.discount-info {
+  margin-top: 0.5rem;
+}
+
+.discount-info small {
+  display: block;
+  color: #27ae60;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+.option-selector {
+  margin-bottom: 2rem;
+}
+
+.option-selector label {
+  display: block;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.option-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.option-btn {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  border: 2px solid #e0e6ed;
+  background: white;
+  border-radius: 15px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2c3e50;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.option-btn:hover {
+  border-color: #667eea;
+  transform: translateY(-2px);
+}
+
+.option-btn.active {
+  border-color: #667eea;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.input-group {
+  margin-bottom: 2rem;
+}
+
+.input-group label {
+  display: block;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.nights-input {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  border: 2px solid #e0e6ed;
+  border-radius: 15px;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  background: #f8f9ff;
+}
+
+.nights-input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.unit-symbol {
+  position: absolute;
+  right: 1.5rem;
+  color: #667eea;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.example-btn, .clear-btn {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.example-btn {
+  background: linear-gradient(135deg, #fdcb6e 0%, #e17055 100%);
+  color: white;
+}
+
+.clear-btn {
+  background: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%);
+  color: white;
+}
+
+.example-btn:hover, .clear-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.results-section {
+  background: #f8f9ff;
+  border-radius: 15px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.results-section h3 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.cost-result {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  border-left: 4px solid #667eea;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.hotel-cost {
+  border-left-color: #fdcb6e;
+}
+
+.car-cost {
+  border-left-color: #667eea;
+}
+
+.car-rental-result .discount-info {
+  background: #d4f6d4;
+  color: #27ae60;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.calculation-breakdown {
+  margin-top: 2rem;
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.calculation-breakdown h4 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.breakdown-step {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem;
+  margin-bottom: 0.5rem;
+  background: #f8f9ff;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.breakdown-step.final {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.step-number {
+  background: #667eea;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+.breakdown-step.final .step-number {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .calculator-container {
+    padding: 0 1rem;
+  }
+  
+  .calculator-card {
+    padding: 1.5rem;
+  }
+  
+  .calculator-title {
+    font-size: 2rem;
+  }
+  
+  .pricing-section {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .option-buttons {
+    flex-direction: column;
+  }
+  
+  .button-group {
+    flex-direction: column;
+  }
+}

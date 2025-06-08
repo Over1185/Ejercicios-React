@@ -1,0 +1,44 @@
+{
+  "textos": [
+    {
+      "id": 1,
+      "titulo": "Introducción al Teleprompter",
+      "contenido": "Bienvenido al sistema de teleprompter. Este es un ejemplo de texto que aparecería en una presentación o discurso. El teleprompter te ayuda a mantener el flujo de tu presentación sin perder el hilo de tus ideas principales."
+    },
+    {
+      "id": 2,
+      "titulo": "Ventajas del Teleprompter",
+      "contenido": "El uso de un teleprompter digital ofrece múltiples beneficios: mejora la fluidez del discurso, reduce los nervios del presentador, permite mantener contacto visual con la audiencia y asegura que todos los puntos importantes sean cubiertos durante la presentación."
+    },
+    {
+      "id": 3,
+      "titulo": "Técnicas de Presentación",
+      "contenido": "Para una presentación efectiva con teleprompter, es importante mantener un ritmo natural de lectura, hacer pausas apropiadas para enfatizar puntos clave, y practicar la entonación para que el discurso suene natural y no robotizado."
+    },
+    {
+      "id": 4,
+      "titulo": "Consejos para Oradores",
+      "contenido": "Los oradores profesionales recomiendan familiarizarse previamente con el texto, ajustar la velocidad de desplazamiento según tu ritmo natural de lectura, y mantener una postura adecuada frente al teleprompter para proyectar confianza."
+    },
+    {
+      "id": 5,
+      "titulo": "Tecnología y Comunicación",
+      "contenido": "La tecnología moderna ha revolucionado la forma en que nos comunicamos. El teleprompter digital es un ejemplo perfecto de cómo la innovación tecnológica puede mejorar significativamente nuestras habilidades de comunicación y presentación."
+    },
+    {
+      "id": 6,
+      "titulo": "Práctica y Perfección",
+      "contenido": "Como en cualquier habilidad, la práctica hace al maestro. Utilizar regularmente un teleprompter te ayudará a desarrollar confianza, mejorar tu dicción y perfeccionar tu capacidad de comunicación efectiva ante cualquier audiencia."
+    },
+    {
+      "id": 7,
+      "titulo": "El Futuro de las Presentaciones",
+      "contenido": "El futuro de las presentaciones digitales es prometedor. Con herramientas como este teleprompter web, cualquier persona puede crear presentaciones profesionales desde cualquier dispositivo con acceso a internet, democratizando el acceso a herramientas de comunicación avanzadas."
+    },
+    {
+      "id": 8,
+      "titulo": "Conclusión",
+      "contenido": "En conclusión, el teleprompter es una herramienta invaluable para cualquier persona que necesite realizar presentaciones o discursos. Su uso correcto puede transformar una presentación ordinaria en una experiencia memorable y profesional para toda la audiencia."
+    }
+  ]
+}

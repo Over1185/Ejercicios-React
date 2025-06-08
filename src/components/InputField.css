@@ -1,0 +1,84 @@
+.input-field {
+  margin-bottom: 1.5rem;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #34495e;
+  font-size: 1rem;
+}
+
+.required-asterisk {
+  color: #e74c3c;
+  margin-left: 0.25rem;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-control {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  border: 2px solid #bdc3c7;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background-color: #fff;
+  color: #2c3e50;
+}
+
+.input-control:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+  transform: translateY(-1px);
+}
+
+.input-control:invalid {
+  border-color: #e74c3c;
+}
+
+.input-control::placeholder {
+  color: #95a5a6;
+}
+
+.input-symbol {
+  position: absolute;
+  right: 1rem;
+  color: #7f8c8d;
+  font-weight: 600;
+  pointer-events: none;
+  background-color: #fff;
+  padding: 0 0.25rem;
+}
+
+.input-control:focus + .input-symbol {
+  color: #3498db;
+}
+
+/* Estilos específicos por tipo */
+.input-control[type="number"] {
+  padding-right: 3rem;
+}
+
+.input-control[type="number"]::-webkit-outer-spin-button,
+.input-control[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-control[type="number"] {
+  -moz-appearance: textfield;
+}
+
+@media (max-width: 768px) {
+  .input-control {
+    padding: 0.75rem;
+    font-size: 16px; /* Previene zoom en iOS */
+  }
+}

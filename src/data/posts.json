@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "titulo": "Mi primera experiencia con React",
+    "autor": "Ana García",
+    "contenido": "Comenzar con React ha sido una experiencia increíble. Al principio me parecía complejo, pero una vez que entendí los conceptos de componentes y hooks, todo comenzó a tener sentido. Los hooks como useState y useEffect han revolucionado la forma en que manejamos el estado en las aplicaciones.",
+    "fecha": "2024-06-01T10:30:00.000Z"
+  },
+  {
+    "id": 2,
+    "titulo": "Consejos para aprender JavaScript moderno",
+    "autor": "Carlos Mendoza",
+    "contenido": "JavaScript ES6+ ha traído muchas características nuevas que facilitan el desarrollo. Las arrow functions, destructuring, template literals y módulos ES6 son algunas de las funcionalidades que todo desarrollador debería dominar. Mi consejo es practicar diariamente y construir proyectos reales.",
+    "fecha": "2024-06-03T15:45:00.000Z"
+  },
+  {
+    "id": 3,
+    "titulo": "La importancia del diseño responsive",
+    "autor": "María López",
+    "contenido": "En la era móvil actual, es crucial que nuestras aplicaciones web se vean bien en todos los dispositivos. CSS Grid y Flexbox son herramientas poderosas para crear layouts responsivos. Además, el mobile-first approach nos ayuda a pensar primero en la experiencia móvil.",
+    "fecha": "2024-06-05T09:15:00.000Z"
+  }
+]
